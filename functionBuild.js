@@ -26,3 +26,32 @@ areaOfHexagon(10);
 
 const wordCount = (s) => console.log(s.match(/(\w+)/g).length);
 wordCount("hi baby, this is Ajit Sharma from NeogCamp batch 2k22 ");
+
+
+
+
+const typeOfTriangle = (a, b, c) => {
+
+    const sum = a + b + c;
+    if (sum == 180) {
+
+        if ((a == b || a == c || b == c) && (a != b || a != c || b != c)) {
+
+            console.log("isosceles");
+        } else
+        if (a == b && b == c) {
+
+            console.log("equilateral");
+
+
+        } else if (a != b || b != c || a != c) {
+
+            console.log("Scalene");
+        }
+    } else {
+
+        console.log("Please enter a valid angles of the triangle ");
+    }
+};
+
+typeOfTriangle(45, 45, 90);
