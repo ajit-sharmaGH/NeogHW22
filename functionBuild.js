@@ -28,7 +28,7 @@ const wordCount = (s) => console.log(s.match(/(\w+)/g).length);
 wordCount("hi baby, this is Ajit Sharma from NeogCamp batch 2k22 ");
 
 
-
+////6 Given three angles of a triangle, your function should return if it is a scalene, isosceles, equilateral triangle or not a triangle at all. Example: Input: typeOfTriangle(30, 60, 90) ––> Output: Scalene Triangle6 Given three angles of a triangle, your function should return if it is a scalene, isosceles, equilateral triangle or not a triangle at all. Example: Input: typeOfTriangle(30, 60, 90) ––> Output: Scalene Triangleconst typeOfTriangle = (a, b, c) => {
 
 const typeOfTriangle = (a, b, c) => {
 
