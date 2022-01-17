@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+.nav {
+  display: flex;
+  flex-grow: 1;
+  background: rgb(238, 226, 226);
+  padding: 10px;
+  border-radius: 2em;
+}
+.input {
+  width: 1200px;
+  padding: 10px 3px 10px 3px;
+  border: 1px solid gray;
+  border-radius: 2em;
+  background: rgb(238, 226, 226);
+}
+.search {
+  border: 0;
+  border-radius: 2em;
+  background-color: blue;
+  color: white;
+  margin-left: 5px;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+}
